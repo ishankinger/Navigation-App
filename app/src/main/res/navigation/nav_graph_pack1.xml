@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_pack1"
+    app:startDestination="@id/pack1F1Fragment">
+
+    <fragment
+        android:id="@+id/pack1F1Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F1Fragment"
+        android:label="fragment_pack1_f1"
+        tools:layout="@layout/fragment_pack1_f1" />
+    <fragment
+        android:id="@+id/pack1F2Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F2Fragment"
+        android:label="fragment_pack1_f2"
+        tools:layout="@layout/fragment_pack1_f2" />
+    <fragment
+        android:id="@+id/pack1F3Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F3Fragment"
+        android:label="fragment_pack1_f3"
+        tools:layout="@layout/fragment_pack1_f3" />
+    <fragment
+        android:id="@+id/pack1F1Menu1Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F1Menu1Fragment"
+        android:label="fragment_pack1_f1_menu1"
+        tools:layout="@layout/fragment_pack1_f1_menu1" />
+    <fragment
+        android:id="@+id/pack1F1Menu2Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F1Menu2Fragment"
+        android:label="fragment_pack1_f1_menu2"
+        tools:layout="@layout/fragment_pack1_f1_menu2" />
+    <fragment
+        android:id="@+id/pack1F2Menu1Fragment"
+        android:name="com.example.navigatingapplication.pack1.Pack1F2Menu1Fragment"
+        android:label="fragment_pack1_f2_menu1"
+        tools:layout="@layout/fragment_pack1_f2_menu1" />
+</navigation>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pack1.Pack1F3Tab2Fragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/pack1_f3_t2_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/p1_f3_t2"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+    </FrameLayout>
+
+</layout>

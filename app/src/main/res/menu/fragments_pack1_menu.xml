@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pack1F1Fragment"
+        android:icon="@drawable/baseline_11mp_24"
+        android:title="@string/p1_f1" />
+    <item
+        android:id="@+id/pack1F2Fragment"
+        android:icon="@drawable/baseline_12mp_24"
+        android:title="@string/p1_f2" />
+    <item
+        android:id="@+id/pack1F3Fragment"
+        android:icon="@drawable/baseline_13mp_24"
+        android:title="@string/p1_f3" />
+</menu>

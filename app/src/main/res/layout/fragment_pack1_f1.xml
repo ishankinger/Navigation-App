@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pack1.Pack1F1Fragment">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:id="@+id/pack1_f1_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/p1_f1"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="25sp"/>
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/progressBarPack1Fragment1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="24dp"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:contentDescription="@string/progress_bar"
+            app:srcCompat="@drawable/baseline_11mp_24"
+            app:tint="@color/white"/>
+
+    </FrameLayout>
+
+</layout>

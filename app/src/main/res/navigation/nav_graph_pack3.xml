@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_pack3"
+    app:startDestination="@id/pack3F1Fragment">
+
+    <fragment
+        android:id="@+id/pack3F1Fragment"
+        android:name="com.example.navigatingapplication.pack3.Pack3F1Fragment"
+        android:label="fragment_pack3_f1"
+        tools:layout="@layout/fragment_pack3_f1" >
+        <action
+            android:id="@+id/action_pack3F1Fragment_to_pack3F2Fragment"
+            app:destination="@id/pack3F2Fragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+    <fragment
+        android:id="@+id/pack3F2Fragment"
+        android:name="com.example.navigatingapplication.pack3.Pack3F2Fragment"
+        android:label="fragment_pack3_f2"
+        tools:layout="@layout/fragment_pack3_f2" />
+</navigation>

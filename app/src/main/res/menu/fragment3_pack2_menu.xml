@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/pack2F3Menu1Fragment"
+        android:title="@string/p2_f3_m1" />
+    <item
+        android:id="@+id/pack2F3Menu2Fragment"
+        android:title="@string/p2_f3_m2" />
+</menu>

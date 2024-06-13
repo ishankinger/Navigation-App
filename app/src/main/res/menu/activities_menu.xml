@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/activities_menuItem1"
+        android:icon="@drawable/baseline_looks_one_24"
+        android:title="@string/pack1" />
+    <item
+        android:id="@+id/activities_menuItem2"
+        android:icon="@drawable/baseline_looks_two_24"
+        android:title="@string/pack2" />
+    <item
+        android:id="@+id/activities_menuItem3"
+        android:icon="@drawable/baseline_looks_three_24"
+        android:title="@string/pack3" />
+    <item
+        android:id="@+id/activities_menuItem4"
+        android:icon="@drawable/baseline_looks_four_24"
+        android:title="@string/pack4" />
+</menu>

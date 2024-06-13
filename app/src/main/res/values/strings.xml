@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">NavigatingApplication</string>
+    <string name="pack1">Pack1</string>
+    <string name="pack2">Pack2</string>
+    <string name="pack3">Pack3</string>
+    <string name="pack4">Pack4</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="p1_f1">P1_F1</string>
+    <string name="p1_f2">P1_F2</string>
+    <string name="p1_f3">P1_F3</string>
+    <string name="progress_bar">Progress Bar</string>
+    <string name="p1_f1_m1">P1_F1_M1</string>
+    <string name="p1_f1_m2">P1_F1_M2</string>
+    <string name="p1_f2_m1">P1_F2_M1</string>
+    <string name="p2_f1">P2_F1</string>
+    <string name="p2_f2">P2_F2</string>
+    <string name="p2_f3">P2_F3</string>
+    <string name="p2_f3_m1">P2_F3_M1</string>
+    <string name="p2_f3_m2">P2_F3_M2</string>
+    <string name="p1_f3_t1">P1_F3_T1</string>
+    <string name="p1_f3_t2">P1_F3_T2</string>
+    <string name="p1_f3_t3">P1_F3_T3</string>
+    <string name="tab_layout">Tab Layout</string>
+    <string name="option_1">Option 1</string>
+    <string name="choose">Choose</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="dialog_box">Dialog box</string>
+    <string name="p3_f1">P3_F1</string>
+    <string name="next">Next</string>
+    <string name="p3_f2">P3_F2</string>
+    <string name="title_activity_pack5">Pack5Activity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="pack_5">Pack 5</string>
+</resources>
